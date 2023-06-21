@@ -2,17 +2,17 @@ const getImageForWeather = (weatherCondition) => {
   let imageSource;
 
   switch (weatherCondition) {
-    case "clear":
+    case "Clear":
       imageSource = require("../assets/clear.jpg");
       break;
-    case "clouds":
-      imageSource = require("../assets/cloudy.jpg");
+    case "Clouds":
+      imageSource = require("../assets/hail.jpg");
       break;
-    case "rain":
+    case "Rain":
       imageSource = require("../assets/shower.jpg");
       break;
-    case "thunderstorm":
-      imageSource = require("../assets/hail.jpg");
+    case "Thunderstorm":
+      imageSource = require("../assets/windy.jpg");
       break;
     case "snow":
       imageSource = require("../assets/windy.jpg");
