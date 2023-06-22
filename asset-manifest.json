@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/expo-gh-pages/static/js/main.cace5120.js",
+    "static/js/660.41a0d5f3.js": "/expo-gh-pages/static/js/660.41a0d5f3.js",
+    "static/media/windy.jpg": "/expo-gh-pages/static/media/windy.9faa108fdc7aae120f3d.jpg",
+    "static/media/shower.jpg": "/expo-gh-pages/static/media/shower.e260ad2a9c99fefc3758.jpg",
+    "static/media/clear.jpg": "/expo-gh-pages/static/media/clear.de423f5983924d8a8795.jpg",
+    "static/media/hail.jpg": "/expo-gh-pages/static/media/hail.b34cc863aae8646e72f1.jpg",
+    "static/media/default.jpg": "/expo-gh-pages/static/media/default.47b851bfcdad3f5e3f64.jpg",
+    "favicon.ico": "/expo-gh-pages/favicon.ico",
+    "index.html": "/expo-gh-pages/index.html",
+    "favicon-32.png": "/expo-gh-pages/favicon-32.png",
+    "favicon-16.png": "/expo-gh-pages/favicon-16.png",
+    "serve.json": "/expo-gh-pages/serve.json",
+    "manifest.json": "/expo-gh-pages/manifest.json",
+    "main.cace5120.js.map": "/expo-gh-pages/static/js/main.cace5120.js.map",
+    "660.41a0d5f3.js.map": "/expo-gh-pages/static/js/660.41a0d5f3.js.map"
+  },
+  "entrypoints": [
+    "static/js/660.41a0d5f3.js",
+    "static/js/main.cace5120.js"
+  ]
+}
