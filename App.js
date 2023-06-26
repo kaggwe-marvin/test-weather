@@ -19,8 +19,6 @@ const App = () => {
   const [location, setLocation] = useState("");
   const [temperature, setTemperature] = useState(0);
   const [weather, setWeather] = useState("");
-  const [feelsLike, setFeelsLike] = useState(0);
-
   useEffect(() => {
     console.log("Component has mounted!");
     handleUpdateLocation("London");
@@ -47,9 +45,8 @@ const App = () => {
       console.log("Main:", main);
       if (weather && weather.length > 0 && main) {
         const { main: weatherMain } = weather[0];
-        const { temp, feels_like: feelsLike } = main;
+        const { temp } = main;
         setTemperature(temp);
-        setFeelsLike(feelsLike);
         setLocation(location);
         setWeather(weatherMain);
         setLoading(false);

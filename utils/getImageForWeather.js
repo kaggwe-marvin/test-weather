@@ -14,7 +14,7 @@ const getImageForWeather = (weatherCondition) => {
     case "Thunderstorm":
       imageSource = require("../assets/windy.jpg");
       break;
-    case "snow":
+    case "Snow":
       imageSource = require("../assets/windy.jpg");
       break;
     default:
